@@ -1,0 +1,8 @@
+version: "2.7"
+services:
+   kkweb:
+      image: nginx
+      container_name: kkc11
+      ports:
+        - "8080:80" 
+

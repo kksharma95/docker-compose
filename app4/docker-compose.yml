@@ -1,0 +1,9 @@
+version: "2.4"
+services:
+  sampleapp:
+    image: kkhttpd:v1
+    build: .
+    container_name: myc1
+    ports:
+      - 8080:80
+

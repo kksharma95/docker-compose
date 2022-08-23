@@ -1,0 +1,10 @@
+version: "2.4"
+services:
+  app1:
+    image: alpine
+    container_name: c1 
+    command: ping google.com  # its like default command like in dockerfile
+  app2:
+    image: alpine
+    container_name: c2 
+    command: ping facebook.com  # its like default command like in dockerfile
